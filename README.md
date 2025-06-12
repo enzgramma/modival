@@ -6,4 +6,4 @@
 - Gulp,
 - JS
 
-[Смотреть демо](https://user.github.io/modival/)
+[Смотреть демо](https://enzgramma.github.io/modival/)
