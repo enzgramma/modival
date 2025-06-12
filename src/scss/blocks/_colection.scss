@@ -1,0 +1,28 @@
+.colection__title {
+    margin-bottom: 24px;
+
+    @include mobile {
+         margin-bottom: 8px;
+    }
+}
+.title {
+}
+.colection__cols {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+        @include mobile {
+                gap: 16px;
+            }
+}
+.colection__col {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    justify-content: space-between;
+
+        @include mobile {
+            gap: 24px;
+        }
+}
